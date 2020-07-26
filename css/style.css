@@ -1,0 +1,363 @@
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #777;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-image: url("../img/double-bubble-outline.png");
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+a{
+    background: none;
+    cursor: pointer;
+}
+
+img{
+    background: none;
+}
+
+header{
+    background-image: url("../imagini/header.png");
+    background: no-repeat center cover;
+    background-size: 700px;
+    background-blend-mode: multiply;
+    background-position-y: 580px;
+    margin-top: 10px;
+}
+
+.enter-game{
+    cursor: pointer;
+    margin-top: 250px;
+    margin-left: -30px;
+    position: fixed;
+    width: 200px;
+    border-radius: 200px;
+    z-index: 7;
+}
+
+.enter-game:hover{
+    background: rgba(27, 219, 219, 0.829);
+}
+
+.exit-announce{
+    margin-left: 120px;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(189, 115, 81);
+    border-radius: none;
+}
+
+.exit-announce:hover{
+    background-color: rgb(214, 138, 102);
+}
+
+.title{
+    cursor: pointer;
+    display: block;
+    width: 21em;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+    min-width: 21em;
+    opacity: 0.7;
+    transition-duration: 200ms;
+}
+
+.title:hover{
+    width: 22em;
+    opacity: 1;
+}
+
+
+.about{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.774);
+}
+
+.game-link{
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 2px;
+    color: rgba(255, 255, 255, 0.795);
+    background-color: rgba(147, 148, 95, 0.507);
+    font-size: 30px;
+    opacity: 0.76;
+    letter-spacing: 2px;
+}
+
+.game-link:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: rgba(145, 136, 61, 0.644);
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.486);
+}
+
+.subject-item{
+    margin:30px;
+}
+
+.subject-item-title{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    background-color: rgb(194, 224, 154);
+    transition-duration: 200ms;
+}
+
+.subject-item-title:hover{
+    cursor: context-menu;
+    background-color: rgb(152, 194, 101);
+}
+
+ 
+
+.subject-item-image{
+    height: 250px;
+    width: 300px; 
+    border-radius: 5%;
+    transition-duration: 200ms;
+}
+
+.subject-item-image:hover{
+    transform: scale(1.04, 1.04);
+}
+
+
+
+.subject-item-detalis{
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+button{
+    margin-top: 5px;
+    width: 130px;
+    height: 35px;
+    font-size: 24px;
+    background-color: rgba(109, 196, 37, 0.705);
+    box-shadow: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgba(6, 82, 16, 0.925);
+    border-radius: 50px 100px;   
+    transition-duration: 200ms; 
+    opacity: 0.9;
+}
+
+button:hover{
+    background-color: rgba(155, 236, 88, 0.705);
+}
+
+button:focus{
+    background-color: rgba(155, 236, 88, 0.705);
+}
+
+
+
+ul{
+    position: absolute;
+    display: flex;
+    margin-top: 0;
+    width: 400px;
+    margin-left: -70px;
+    flex-direction: column;
+    border-radius: 0px 0px 4px 4px;
+    opacity: 1;
+    z-index: 5;
+}
+
+ul li{
+    display: block;
+    margin-left: -160px;
+    list-style: none;
+    border-radius: 5%;
+}
+
+.seemore{
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: hsla(136, 15%, 51%, 0.877);
+    color: #fff;
+    opacity: 1;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    font-size: 20px;
+    border-radius: 10px 10px;
+}
+
+.seemore:hover{
+    background: #5b8491;
+}
+
+.ios-adapt{
+    background: none;
+    color: white;
+}
+
+ul li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: hsla(136, 15%, 51%, 0.877);
+    color: #fff;
+    opacity: 1;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    transition-duration: 0.3s;
+    font-size: 20px;
+    border-radius: 10px 10px;
+}
+
+ul li a:hover{
+    background: #5b8491;
+}
+
+.multiple-list ul{
+    display: none;
+    width: 50%;
+    z-index:1;
+    margin-left: 10%;
+}
+
+.multiple-list:hover ul{
+    display: block;
+}
+
+.comm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(192, 218, 179, 0.616);
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.content-comm{
+    opacity: 0.8;
+    background-color: none;
+}
+
+.content-comm:hover{
+    opacity: 1;
+}
+
+.sugest{
+    background-color: rgba(65, 77, 18, 0);
+    margin-left: 10px;
+}
+
+
+footer{
+    cursor: context-menu;
+    text-align: center;
+    background-color: rgba(197, 231, 193, 0.685);
+    margin-top: -20px;
+    border-radius: 20px;
+}
+
+footer form{
+    display: inline;
+}
+
+form input{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    border: none;
+    text-decoration-color: rgba(103, 126, 253, 0.432);
+    background: none;
+}
+
+form input:hover{
+    color: rgba(106, 146, 175, 0.507);
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 1.5em;
+    
+}
+
+
+.subjects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+
+.mentenanta{
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+}
+
+
+.video-play{
+    visibility: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    scroll-snap-align: end;
+    margin-top: -70em;
+    width: 900px;
+    height: 500px;
+    z-index: 15;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.video-play.active{
+    visibility: visible;
+    box-shadow: 100px 0px 400px 600px #18142594;
+
+}
+
+.video-close-button{
+    visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    top: 10em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    opacity: 0.8;
+}
+
+.video-close-button.active{
+    visibility: visible;
+}
+
+#MyFrame{
+    width: 100%;
+    height: 100%;
+}
