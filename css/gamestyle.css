@@ -1,0 +1,182 @@
+body {
+    background-color: rgba(63, 138, 92, 0.603);
+    font-family: "Oswald", sans-serif;
+    color: rgb(70, 65, 65);
+    min-width: 1280px;
+  }
+
+  header{
+    background-image: url("../imagini/header.png");
+    background: no-repeat center cover;
+    background-size: 700px;
+    background-blend-mode: multiply;
+    background-position-y: 580px;
+}
+
+.title{
+    position: absolute;
+    display: block;
+    top: -41em;
+    bottom: 1.5em;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    width: 20em;
+    min-width: 20em;
+    opacity: 0.7;
+    transition-duration: 200ms;
+}
+
+
+.title:hover{
+    opacity: 1;
+    width: 20.5em;
+}
+
+
+.title-about{
+    position: absolute;
+    width: 100%;
+    margin: 32px auto;
+    text-align: center;
+    background-color: rgba(152, 197, 199, 0.39);
+    font-size: 1em;
+    margin-top: 0;
+}
+
+  .game-container {
+    display: flex;  
+    justify-content: flex-end;
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1100px;
+    height: 650px;
+    background-color: rgba(187, 235, 219, 0.596);
+  }
+
+  h1{
+      position: absolute;
+      width: 300px;
+      font-size: 30px;
+      transform: rotate(-7.7deg);
+      color: whitesmoke;
+      margin-left: -250px;
+      margin-top: 70px;
+
+  }
+
+  .joaca{
+    position: absolute;
+    font-size: 80px;
+    background-color: rgba(20, 72, 83, 0.61);
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 60px;
+    color:  rgba(109, 245, 245, 0.705);
+    top: 65%;
+    margin-left: -600px;
+    box-shadow: none;
+    z-index: 4;
+    transition-duration: 200ms;
+  }
+
+  .joaca:hover{
+    cursor: pointer;
+    border: 0.5px solid rgba(238, 225, 207, 0.767);
+    color: rgba(157, 255, 255, 0.705);
+    background-color: rgb(99, 133, 148);
+    }
+
+  .davinci{
+    position: relative;
+  }
+
+  .img-question{
+    position: relative;
+    left: 26%;
+    width: 40%;
+    max-width: 60%;
+    margin: auto auto;
+    margin-top: 45px;
+
+  }
+
+  .starter{
+    display: block;
+  }
+
+  .question{
+    position: relative;
+    display: inline-table;
+    font-size: 17px;
+    padding: 10px 5px;
+    min-width: 500px;
+    background-color: rgba(42, 85, 102, 0.822);
+    color: white;
+    text-align: center;
+    margin: auto auto;
+    left: -25%;
+    margin-top: 33%;
+  }
+
+  .question:hover{
+    background-color: rgba(71, 135, 160, 0.822);
+  }
+
+  .options{
+    position: absolute;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: center;
+    margin-left: -12%;
+    margin-top: 34.5%;
+    z-index: 3;
+  }
+
+  .option{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 300px;
+    transition-duration: 200ms;
+  }
+
+  .option:hover{
+    cursor: pointer;
+    background-color: rgb(204, 204, 97);
+  }
+
+    #score{
+    display: none;  
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 1%;
+    right: 0;
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(31, 36, 65, 0.589);
+    }
+
+
+    .final-image{
+      position: absolute;
+      width: 500px;
+      left: 5%;
+      top: 40%;
+    }
