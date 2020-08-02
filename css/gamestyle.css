@@ -1,6 +1,6 @@
 body {
-    background-color: rgba(63, 138, 92, 0.603);
-    font-family: "Oswald", sans-serif;
+    background-color: rgba(117, 189, 134, 0.714);
+     font-family: "Oswald", sans-serif;
     color: rgb(70, 65, 65);
     min-width: 1280px;
   }
@@ -14,10 +14,10 @@ body {
 }
 
 .title{
-    position: absolute;
     display: block;
     top: -41em;
-    bottom: 1.5em;
+    bottom: 5.5em;
+    padding-bottom: 50px;
     left: 0;
     right: 0;
     margin: auto auto;
@@ -47,7 +47,7 @@ body {
   .game-container {
     display: flex;  
     justify-content: flex-end;
-    position: absolute;
+    position: relative;
     top: 5%;
     bottom: 0;
     left: 0;
@@ -59,32 +59,35 @@ body {
   }
 
   h1{
-      position: absolute;
-      width: 300px;
-      font-size: 30px;
-      transform: rotate(-7.7deg);
-      color: whitesmoke;
-      margin-left: -250px;
-      margin-top: 70px;
-
-  }
-
-  .joaca{
     position: absolute;
-    font-size: 80px;
-    background-color: rgba(20, 72, 83, 0.61);
-    font-family: 'Bebas Neue', cursive;
-    border: none;
-    text-decoration: none;
-    outline: none;
-    padding: 10px 60px;
-    color:  rgba(109, 245, 245, 0.705);
-    top: 65%;
-    margin-left: -600px;
-    box-shadow: none;
-    z-index: 4;
-    transition-duration: 200ms;
-  }
+    width: 300px;
+    font-size: 30px;
+    transform: rotate(-7.7deg);
+    color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 44px;
+    margin-right: 250px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.joaca{
+  position: absolute;
+  font-size: 80px;
+  background-color: rgba(20, 72, 83, 0.61);
+  font-family: 'Bebas Neue', cursive;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  padding: 10px 60px;
+  color:  rgba(109, 245, 245, 0.705);
+  top: 65%;
+  margin-left: -800px;
+  margin-right: 760px;
+  box-shadow: none;
+  z-index: 4;
+  transition-duration: 200ms;
+}
 
   .joaca:hover{
     cursor: pointer;
