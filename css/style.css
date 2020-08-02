@@ -83,13 +83,78 @@ header{
     background: rgba(255, 255, 255, 0.774);
 }
 
+
+.khan{
+    background-image: url("../img/vara.jpg");
+    background-blend-mode: color;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.khan-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.khan-image{
+    box-shadow: 50px 0px 100px 100px #18142521;
+    border-radius: 20%;
+    width: 200px;
+    transition-duration: 200ms;
+}
+
+.khan-image:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.khan-item{
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.khan-item-text{
+    box-shadow: 50px 0px 40px 40px #18142521;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 200ms;
+    
+}
+
+.khan-item-text:hover{
+    cursor: pointer;
+}
+
+#khan-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: wavy;
+    color: rgba(0, 0, 0, 0.666);
+    background-color:rgba(255, 255, 255, 0.639);
+    padding-top: 10px;
+    margin-top: 2px;
+    width: 100%;
+    font-size: 45px;
+}
+
 .game-link{
     margin-top: -20px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     padding-top: 2px;
     color: rgba(255, 255, 255, 0.795);
-    background-color: rgba(147, 148, 95, 0.507);
     font-size: 30px;
     opacity: 0.76;
     letter-spacing: 2px;
@@ -114,13 +179,14 @@ header{
     font-size: 1.5em;
     color: #333;
     margin-bottom: 10px;
-    background-color: rgb(194, 224, 154);
+    /* background-color: rgb(194, 224, 154); */
+    background-image: linear-gradient(to right, rgb(74, 155, 151), rgb(94, 221, 94));
     transition-duration: 200ms;
 }
 
 .subject-item-title:hover{
     cursor: context-menu;
-    background-color: rgb(152, 194, 101);
+    background-image: linear-gradient(to right, rgb(126, 194, 192), rgb(131, 211, 131));
 }
 
  
@@ -151,7 +217,7 @@ button{
     width: 130px;
     height: 35px;
     font-size: 24px;
-    background-color: rgba(109, 196, 37, 0.705);
+    background-image: linear-gradient(to right, rgb(126, 194, 192), rgb(131, 211, 131));
     box-shadow: none;
     outline: none;
     border: none;
@@ -163,7 +229,7 @@ button{
 }
 
 button:hover{
-    background-color: rgba(155, 236, 88, 0.705);
+    background-image: linear-gradient(to right, rgb(126, 194, 192), rgb(160, 245, 160));
 }
 
 button:focus{
@@ -186,7 +252,7 @@ ul{
 
 ul li{
     display: block;
-    margin-left: -160px;
+    margin-left: -135px;
     list-style: none;
     border-radius: 5%;
 }
@@ -197,7 +263,7 @@ ul li{
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    background: hsla(136, 15%, 51%, 0.877);
+    background-image: linear-gradient(to right, rgb(74, 138, 137), rgb(64, 140, 64));
     color: #fff;
     opacity: 1;
     border-bottom: 1px solid rgba(0,0,0,.2);
@@ -206,7 +272,7 @@ ul li{
 }
 
 .seemore:hover{
-    background: #5b8491;
+    background-image: linear-gradient(to right, rgb(74, 138, 137), rgb(87, 165, 87));
 }
 
 .ios-adapt{
@@ -219,7 +285,7 @@ ul li a{
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    background: hsla(136, 15%, 51%, 0.877);
+    background-image: linear-gradient(to right, rgb(74, 138, 137), rgb(64, 140, 64));
     color: #fff;
     opacity: 1;
     border-bottom: 1px solid rgba(0,0,0,.2);
@@ -229,7 +295,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background: #5b8491;
+    background-image: linear-gradient(to right, rgb(74, 138, 137), rgb(102, 204, 102));
 }
 
 .multiple-list ul{
@@ -248,7 +314,8 @@ ul li a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background: rgba(192, 218, 179, 0.616);
+    /* background: rgba(192, 218, 179, 0.616); */
+    background-image: linear-gradient(to right, rgba(149, 228, 165, 0.616), rgb(155, 155, 218));
     width: 100%;
     height: 100px;
     border-radius: 20px;
@@ -263,20 +330,29 @@ ul li a:hover{
     opacity: 1;
 }
 
-.sugest{
-    background-color: rgba(65, 77, 18, 0);
-    margin-left: 10px;
-}
 
 
 footer{
     cursor: context-menu;
     text-align: center;
-    background-color: rgba(197, 231, 193, 0.685);
-    margin-top: -20px;
+    /* background-color: rgba(197, 231, 193, 0.685); */
+    background-image: url("../img/vara.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.217);
+    background-size: 100%;
+    background-position: center;
+    margin-top: -50px;
+    padding-top: 50px;
     border-radius: 20px;
+    width: 100%;
 }
 
+.sugest{
+    position: relative;
+    margin-left: 10px;
+    
+}
 footer form{
     display: inline;
 }
@@ -288,12 +364,13 @@ form input{
     padding-top: 0;
     margin-top: 0;
     border: none;
-    text-decoration-color: rgba(103, 126, 253, 0.432);
+    color: white;
+    text-decoration-color: rgb(185, 190, 223);
     background: none;
 }
 
 form input:hover{
-    color: rgba(106, 146, 175, 0.507);
+    color: rgb(98, 223, 219);
 }
 
 .container{
@@ -337,7 +414,7 @@ form input:hover{
 .video-play.active{
     visibility: visible;
     box-shadow: 100px 0px 400px 600px #18142594;
-
+    animation-delay: 3s;
 }
 
 .video-close-button{
@@ -350,14 +427,43 @@ form input:hover{
     left: 0;
     right: 0;
     color: white;
-    opacity: 0.8;
 }
 
 .video-close-button.active{
     visibility: visible;
 }
 
+
+.loader {
+     visibility: hidden; 
+    box-shadow: 50px 0px 400px 400px #18142521;
+    border: 16px solid #b8b7b7; 
+    border-top: 16px solid #248d29; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 190px;
+    margin-left: 390px;
+    position: absolute;
+
+  }
+
+.loader.active{
+    visibility: visible;
+} 
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
 #MyFrame{
     width: 100%;
     height: 100%;
+    border-radius: 50px;
 }
