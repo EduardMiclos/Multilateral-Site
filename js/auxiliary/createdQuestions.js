@@ -10,7 +10,11 @@ let imgUrls = {
     q7: 'game_img/intrebare-programare.jpg',
     q8: 'game_img/intrebare-arc.jpg',
     q9: 'game_img/antonpann.jpg',
-    q10: 'game_img/vertebrate.jpg'
+    q10: 'game_img/vertebrate.jpg',
+    q11: 'game_img/intrebare-dunare.jpg',
+    q12: 'game_img/intrebare-sua.jpg',
+    q13: 'game_img/intrebare-calatorie.jpg',
+    q14: 'game_img/intrebare-musk.jpg'
 }
 
 let q1 = new Question("CINE A SPUS ÎNTÂIA OARĂ „CARPE DIEM” ?", ['HORAȚIU', 'HOMER', 'DA VINCI', 'GALILEI'], 'HORAȚIU', 
@@ -31,6 +35,12 @@ let q8 = new Question("ARCUL DE TRIUMF DE LA BUCUREȘTI SIMBOLIZEAZĂ", ['ÎNTEM
 'PACEA', 'CÂȘTIGAREA PRIMUL RĂZBOI MONDIAL', 'SUPRIMAREA REGIMULUI COMUNIST'], 'CÂȘTIGAREA PRIMUL RĂZBOI MONDIAL', imgUrls.q8);
 let q9 = new Question("ANTON PANN", ['A COMPUS IMNUL NAȚIONAL AL ROMÂNIEI', 'A DESCOPERIT PENICILINA', 'A TRADUS PENTRU ÎNTÂIA OARĂ BIBLIA', 'S-A REMARCAT ÎN REVOLUȚIA DIN 1907'], 'A COMPUS IMNUL NAȚIONAL AL ROMÂNIEI', imgUrls.q9)
 let q10 = new Question("SUNT ANIMALE VERTEBRATE", ['MELCII', 'PEȘTII', 'VIERMII INELAȚI', 'MEDUZELE'], 'PEȘTII', imgUrls.q10);
+let q11 = new Question("DIN CE ȚARĂ IZVORĂȘTE DUNĂREA?", ["ROMÂNIA", "EGIPT", "FRANȚA", "GERMANIA"], "GERMANIA", imgUrls.q11);
+let q12 = new Question("CU CE STATE SE ÎNVECINEAZĂ STATELE UNITE ALE AMERICII?", ["RUSIA ȘI NOUA ZEELANDĂ", "MEXIC ȘI CANADA", "ARGENTINA ȘI BRAZILIA", "RUSIA ȘI CHINA"], "MEXIC ȘI CANADA", imgUrls.q12);
+let q13 = new Question("CINE A REALIZAT PRIMA CĂLĂTORIE ÎN JURUL LUMII?", ["FERNANDO MAGELLAN", "CRISTOFOR COLUMB", "MARCO POLO", "AMERIGO VESPUCCI"], "FERNANDO MAGELLAN", imgUrls.q13);
+let q14 = new Question("ELON MUSK", ["ESTE FONDATORUL COMPANIEI GOOGLE", "A CĂLĂTORIT PE MARTE", "ESTE FONDATORUL COMPANIEI SPACEX", "ESTE PATRONUL ECHIPEI CHELSEA"], "ESTE FONDATORUL COMPANIEI SPACEX", imgUrls.q14);
 
-export let questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10];
+
+
+export let questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14];
 
