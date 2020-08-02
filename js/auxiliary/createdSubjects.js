@@ -21,6 +21,7 @@ let psihologie = new Subject(el.subjectsId.psihologie);
 
 /* LIMBA ȘI LITERATURA ROMÂNĂ */
 romana.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
+romana.addSubitem(1, "NOU: Rezolvare subiect Bacalaureat 2020 - PROFIL REAL", el.types.video, "https://www.youtube.com/embed/hpJzmqB30to");
 romana.addSubitem(1, "TeleȘcoala - Curente literare", el.types.video, "https://www.youtube.com/embed/ZEHi5sIIHeo");
 romana.addSubitem(1, "ZaiaBAC - Comentarii literare pe înțelesul tău", el.types.playlist, "https://www.youtube.com/playlist?list=PLYRWJtBlBYLOyhmpFeNIvLUbw9WtQFMDA");
 romana.addSubitem(1, "Opere lirice moderniste", el.types.read, "https://www.4bac.ro/category/romana/opere-lirice/");
@@ -29,34 +30,44 @@ romana.addSubitem(1, "Cum să redactez eseul?", el.types.video, "https://www.you
 romana.addSubitem(1, "12 sfaturi utile pentru a da cel mai bun randament la Bacalaureat", el.types.video, "https://www.youtube.com/embed/2RpNf_pieQU");
 romana.addSubitem(1, "Curente și caracteristici, viziunea despre lume în operele canonice", el.types.playlist, "https://www.youtube.com/channel/UCBTTy8_1S-uGZysa9SIyvYQ");
 romana.addSubitem(1, "Comentarii literare audio", el.types.playlist, "https://www.youtube.com/channel/UCZUKVwL3NfRCjRSiWCodHoQ/videos");
+romana.addItem("Evaluare Națională 2020", el.types.seemore, "#", 1);
+romana.addSubitem(2, "NOU: Rezolvare subiect Evaluare Națională 2020", el.types.video, "https://www.youtube.com/embed/TU7L2gQJFvo");
 romana.addItem("Gramatică", el.types.seemore, "#", 1);
-romana.addSubitem(2, "Materiale educaționale, limba română", el.types.playlist, "https://www.youtube.com/channel/UCDoEozlvlJDUflJpcsgF3Jw/videos");
-romana.addSubitem(2, "Gramatică - morfologie, grile online", el.types.exercise, "https://www.grileonline.ro/teste/gramatica/morfologie.html");
+romana.addSubitem(3, "Materiale educaționale, limba română", el.types.playlist, "https://www.youtube.com/channel/UCDoEozlvlJDUflJpcsgF3Jw/videos");
+romana.addSubitem(3, "Gramatică - morfologie, grile online", el.types.exercise, "https://www.grileonline.ro/teste/gramatica/morfologie.html");
+romana.addSubitem(3, "Cristina Tunegaru", el.types.playlist, "https://www.youtube.com/channel/UC4GtUTbkIMY7j_gMagpkY1Q");
 romana.addItem("Literatură", el.types.seemore, "#", 1);
-romana.addSubitem(3, "Goodreads - recenzii literare", el.types.read, "https://www.goodreads.com/");
-romana.addSubitem(3, "Whichbook - recenzii literare", el.types.read, "https://www.whichbook.net/");
+romana.addSubitem(4, "Goodreads - recenzii literare", el.types.read, "https://www.goodreads.com/");
+romana.addSubitem(4, "Whichbook - recenzii literare", el.types.read, "https://www.whichbook.net/");
+romana.addSubitem(4, "Cristina Tunegaru", el.types.playlist, "https://www.youtube.com/channel/UC4GtUTbkIMY7j_gMagpkY1Q");
 romana.addItem("Jocuri educaționale", el.types.seemore, "#", 1);
-romana.addSubitem(4, "Spânzurătoarea", el.types.game, "https://dexonline.ro/spanzuratoarea");
-romana.addSubitem(4, "Omleta Cuvintelor", el.types.game, "https://dexonline.ro/omleta");
-romana.addSubitem(4, "Moara cuvintelor", el.types.game, "https://dexonline.ro/moara");
+romana.addSubitem(5, "Spânzurătoarea", el.types.game, "https://dexonline.ro/spanzuratoarea");
+romana.addSubitem(5, "Omleta Cuvintelor", el.types.game, "https://dexonline.ro/omleta");
+romana.addSubitem(5, "Moara cuvintelor", el.types.game, "https://dexonline.ro/moara");
 
 
 /* MATEMATICĂ  */
 mate.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
+mate.addSubitem(1, "NOU: Rezolvare subiect Bacalaureat 2020 - M1", el.types.video, "https://www.youtube.com/embed/8r1Dw30HAfo");
+mate.addSubitem(1, "NOU: Rezolvare subiect Bacalaureat 2020 - M2 TEHNOLOGIC", el.types.video, "https://www.youtube.com/embed/BH-Qef032tc");
+mate.addSubitem(1, "NOU: Rezolvare subiect Bacalaureat 2020 - M2 ȘTIINȚELE NATURII", el.types.video, "https://www.youtube.com/embed/zDVZEA53vu8");
+mate.addSubitem(1, "NOU: Rezolvare subiect Bacalaureat 2020 - SESIUNEA SPECIALĂ", el.types.video, "https://www.youtube.com/embed/EjqR-WrwYOQ");
 mate.addSubitem(1, "Math PDR - Poenaru Dan și Poenaru Radu", el.types.playlist, "https://www.youtube.com/user/Poe669/about")
 mate.addSubitem(1, "Meditații pentru BAC - Adevărul", el.types.video, "https://www.youtube.com/embed/MjGRCXE6tOE");
 mate.addSubitem(1, "9 reguli pentru a reuși la BAC - Prepa.ro", el.types.video, "https://www.youtube.com/embed/kKl7ck3Zpvo");
 mate.addSubitem(1, "Matematică pentru Bacalaureat", el.types.video, "https://www.youtube.com/embed/6aXhJ-8a06k", 0);
 mate.addItem("Evaluare națională 2020", el.types.seemore, "#", 1);
+mate.addSubitem(2, "NOU: Rezolvare subiect Evaluare Națională 2020", el.types.video, "https://www.youtube.com/embed/TAWjb9VDjmM");
+mate.addSubitem(2, "Rezolvare subiect Evaluare Națională 2019", el.types.video, "https://www.youtube.com/embed/iJ9WeC2N6lU", 0);
 mate.addItem("Învățământ primar și gimnazial", el.types.seemore, "#", 1);
-mate.addSubitem(2, "Rezolvare subiecte Evaluare Națională 2019", el.types.video, "https://www.youtube.com/embed/iJ9WeC2N6lU", 0);
-mate.addSubitem(3, "Mquest.ro - înțelegi matematica de gimnaziu cu ajutorul filmelor", el.types.video, "https://mquest.ro/");
+mate.addSubitem(3, "Mquest.ro - înțelegi matematica de gimnaziu cu ajutorul filmelor", el.types.read, "https://mquest.ro/");
 mate.addItem("Desmos - aplicație pentru vizualizarea graficelor", el.types.see, "https://www.desmos.com/calculator", 0);
 mate.addItem("3Blue1Brown - vizualizare și înțelegerea conceptelor matematice (lb.engleză)", el.types.playlist, "https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw", 0);
 
 
 /* BIOLOGIE */
 bio.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
+bio.addSubitem(1, "NOU: Rezolvare subiect Bacalaureat 2020 - ANATOMIE", el.types.video, "https://www.youtube.com/embed/3Bk45IiUOV8")
 bio.addSubitem(1, "Însușiri generale ale organismelor", el.types.video, "https://www.youtube.com/embed/TwIxoUHe2rY");
 bio.addSubitem(1, "Organizarea celulară a organismelor", el.types.video, "https://www.youtube.com/embed/7whRl1xtRls");
 bio.addSubitem(1, "Regnul Plante", el.types.video, "https://www.youtube.com/embed/18PYrAwqoho");
@@ -76,7 +87,7 @@ bio.addItem("Teste grilă", el.types.exercise, "https://teste.ha-ha.ro/biologie.
 /* LIMBA ENGLEZĂ */
 engl.addItem("Timpuri verbale", el.types.read, "http://www.rapiduldeengleza.ro/blog/cum-folosim-timpurile-verbale-din-limba-engleza/", 0);
 engl.addItem("Cursuri engleză online - Rita Engleză", el.types.playlist, "https://www.youtube.com/channel/UC1c6wnh4YnQoXYCn3hIY4Pw/about", 0);
-engl.addItem("Lecție video - proba orală", el.types.video, "https://www.youtube.com/embed/Az4JTfO2sp4&t=381s", 0);
+engl.addItem("Lecție video - proba orală", el.types.video, "https://www.youtube.com/embed/Az4JTfO2sp4", 0);
 engl.addItem("Cursuri engleză online - Engleză ABC", el.types.playlist, "https://www.youtube.com/channel/UCVb9L9dHJ0Gny8wIkI4396A/videos", 0);
 engl.addItem("Duolingo - aplicație pentru însușirea limbilor străine", el.types.exercise, "https://ro.duolingo.com/course/en/ro/%C3%8Enva%C8%9B%C4%83-englez%C4%83", 0);
 
@@ -87,7 +98,12 @@ frnc.addItem("Reguli de citire în limba franceză", el.types.video, "https://ww
 frnc.addItem("Duolingo - aplicație pentru însușirea limbilor străine", el.types.exercise, "https://ro.duolingo.com/course/en/ro/%C3%8Enva%C8%9B%C4%83-englez%C4%83", 0);
 
 /* FIZICĂ */
-fizica.addItem("Bacalaureat", el.types.seemore, "#", 1);
+fizica.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
+fizica.addSubitem(1, "LECȚIA 1: Tensiunea, curentul, rezistența (lb.engleză)", el.types.video, "https://www.youtube.com/embed/OGa_b26eK2c");
+fizica.addSubitem(1, "LECȚIA 2: Componente ale unui circuit (lb.engleză)", el.types.video, "https://www.youtube.com/embed/RHpo4wKo8pQ");
+fizica.addSubitem(1, "LECȚIA 3: Legea lui Ohm (lb.engleză)", el.types.video, "https://www.youtube.com/embed/lf0lMDZVwTI");
+fizica.addSubitem(1, "BAC - Mecanică", el.types.video, "https://www.youtube.com/embed/y0WHjWrJtHU");
+fizica.addSubitem(1, "BAC - Electricitate", el.types.video, "https://www.youtube.com/embed/u5P82qQyDtk");
 fizica.addSubitem(1, "Bacalaureat 2014 - rezolvare subiecte mecanică", el.types.video, "https://www.youtube.com/embed/1scRpfRs_HY"); 
 fizica.addSubitem(1, "Bacalaureat 2014 - rezolvare subiecte electricitate", el.types.video, "https://www.youtube.com/embed/I9yMs-DoyKM");
 fizica.addItem("Clasa a VI-a", el.types.playlist, "https://www.youtube.com/playlist?list=PL4MMPTMzcvm0u8XoIc8Mfk-l_ZYh-wXc4", 0);
@@ -98,7 +114,7 @@ fizica.addItem("Fizică cu Cristian Presură", el.types.playlist, "https://www.y
 
 
 /* PROGRAMARE */
-prgm.addItem("Bacalaureat", el.types.seemore, "#", 1);
+prgm.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
 prgm.addSubitem(1, "Rezolvare subiecte Bacalaureat 2020", el.types.video, "https://www.youtube.com/embed/kjU-wsskY4o");
 prgm.addSubitem(1, "Rezolvare subiecte Bacalaureat 2019", el.types.video, "https://www.youtube.com/embed/XMU1BtVAe78");
 prgm.addItem("Cursuri/Tutoriale C++ - The Cherno", el.types.playlist, "https://www.youtube.com/user/TheChernoProject/videos", 0);
@@ -121,6 +137,9 @@ eco.addItem("Lecții online - elearning. Generalități", el.types.read, "http:/
 eco.addItem("Cererea și oferta", el.types.video, "https://www.youtube.com/embed/Jv5qlv_rr8c", 0);
 eco.addItem("Costurile firmei", el.types.video, "https://www.youtube.com/embed/MMyadQgFcLs", 0);
 eco.addItem("TeleȘcoala - Consumatorul și comportamentul său rațional", el.types.video, "https://www.youtube.com/embed/E3Wkvv5y8c8", 0);
+eco.addItem("Despre PIB & Growth", el.types.video, "https://www.youtube.com/embed/5HFrdxx1xZY",0);
+eco.addItem("Economie la Minut - Adrian Măniuțiu", el.types.playlist, "https://www.youtube.com/c/EM360Studio/about", 0);
+
 
 /* GEOGRAFIE */
 geo.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
@@ -136,6 +155,8 @@ geo.addSubitem(1, "Atmosfera. Caracteristici generale", el.types.video, "https:/
 
 /* CHIMIE */
 chimie.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
+chimie.addSubitem(1, "BAC - Test antrenament. Chimie anorganică", el.types.video, "https://www.youtube.com/embed/SjuVdmUEp70");
+chimie.addSubitem(1, "BAC - Test antrenament. Chimie organică", el.types.video, "https://www.youtube.com/embed/gqflM7tlmpA");
 chimie.addSubitem(1, "Consultații. Prof. Mihaela Șerban", el.types.video, "https://www.youtube.com/embed/E8RbZqgkd9Y");
 chimie.addItem("Clasa a VII-a", el.types.playlist, "https://www.youtube.com/playlist?list=PL4MMPTMzcvm0E5SMp9aAOyWcGLvTY6c9L", 0);
 chimie.addItem("Clasa a VIII-a", el.types.playlist, "https://www.youtube.com/playlist?list=PL4MMPTMzcvm0WKKz2Vj9iE3JEA1m9Wc8n", 0);
@@ -146,9 +167,13 @@ rel.addItem("„Dialog cu tinerii”, Pr. Constantin Necula", el.types.video, `h
 rel.addItem("„Aceasta este viața mea” - Iustinian Chira", el.types.video, "https://www.youtube.com/embed/PFwEvLVcUkI", 0);
 
 /* FILOSOFIE */
+filosofie.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
+filosofie.addSubitem(1, "TeleȘcoala - Filosofie și viață. Omul", el.types.video, "https://www.youtube.com/embed/AWf8RkkVZJw");
 filosofie.addItem("Dan Puric - curs, filosofie", el.types.video, "https://www.youtube.com/embed/_aGxhtwdJeM", 0);
 
 /* PSIHOLOGIE */
+psihologie.addItem("Bacalaureat 2020", el.types.seemore, "#", 1);
+psihologie.addSubitem(1, "BAC - Test de antrenament", el.types.video, "https://www.youtube.com/embed/pSPTJO4VjsE");
 psihologie.addItem("TheraminTrees (lb.engleză)", el.types.playlist, "https://www.youtube.com/channel/UCJ-vHE5CrGaL_ITEg-n3OeA", 0);
 
 };
