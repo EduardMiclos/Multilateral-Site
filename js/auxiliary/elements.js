@@ -6,7 +6,7 @@ export let el = {
         engleza: "list-4",
         franceza: "list-5",
         fizica: "list-6",
-        programare: "list-7",
+        info: "list-7",
         istorie: "list-8",
         economie: "list-9",
         geografie: "list-10",
