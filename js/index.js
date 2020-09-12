@@ -1,9 +1,7 @@
 import  * as createSubjects from './auxiliary/createdSubjects'
 import  {gamePlay} from './auxiliary/game'
 
-/* Multilateral.site @2020. Developed by Micloș Eduard.
-   Hosting is provided by Hostinger. All rights reserved. */
-
+    /* Check page index and decide whether to create subject or questions for the game. */
     let PAGE = document.getElementsByTagName("html")[0].id;
 
     if(PAGE === "page-1"){
