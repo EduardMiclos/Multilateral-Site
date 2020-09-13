@@ -12,7 +12,7 @@
 
     <body>
         <header>
-            <a href="index.html"><img class="title" src="img/logovara.png" alt="MULTILATERAL"></a>
+            <a href="index"><img class="title" src="img/logovara.png" alt="MULTILATERAL"></a>
         </header>
         <div class="game-container">
             <p class="title-about">AFLĂ DACĂ EȘTI UN <span style="color: white;">UOMO UNIVERSALE</span></p>
