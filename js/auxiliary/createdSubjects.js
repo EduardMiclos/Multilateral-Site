@@ -28,7 +28,7 @@ var async = true;
 ajax.open(method, path, async);
 ajax.send();
 
-/* Receiving a resposne from dbh.inc.php */
+/* Receiving a resposne from subjects.php */
 ajax.onreadystatechange = function(){
 
     if(ajax.readyState == 4 && ajax.status == 200){
