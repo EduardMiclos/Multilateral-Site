@@ -13,7 +13,7 @@
         <header>
             <img class="title" src="img/logovara.png" alt="MULTILATERAL">
         </header>
-        <a href="game.html" target="_blank"><img src="game_img/test.png" class="enter-game"></img></a>
+        <a href="game" target="_blank"><img src="game_img/test.png" class="enter-game"></img></a>
         <div class="enter-game exit-announce" onclick="showHideTest()">X</div>
         <div class="container">
             <p class="about">
