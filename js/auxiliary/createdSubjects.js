@@ -21,7 +21,7 @@ let subjectCount = -1;
 /* Creating a new XMLHTTP REQUEST */
 var ajax = new XMLHttpRequest();
 var method = "GET";
-var path = "databaseconnect.php";
+var path = "subjects.php";
 var async = true;
 
 /* Sending a request to the server */
