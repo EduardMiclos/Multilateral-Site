@@ -15,8 +15,8 @@
             <img class="title" src="img/logo.png" alt="MULTILATERAL">
             
             <div class="header-container">
-                <a href="game.html" class="game-button"><button class="game-button">Testează-ți cultura generală</button></a>
-                <a href="solarSystem.html" class="game-button"><button class="game-button">Învață Sistemul Solar</button></a>
+                <a href="game" class="game-button"><button class="game-button">Testează-ți cultura generală</button></a>
+                <a href="solarSystem" class="game-button"><button class="game-button">Învață Sistemul Solar</button></a>
             </div>
 
         </header>
