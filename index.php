@@ -6,15 +6,20 @@
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Girassol|Open+Sans+Condensed:300|Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
 </head>
     <body>
         <header>
-            <img class="title" src="img/logovara.png" alt="MULTILATERAL">
+            <img class="title" src="img/logo.png" alt="MULTILATERAL">
+            
+            <div class="header-container">
+                <a href="game.html" class="game-button"><button class="game-button">Testează-ți cultura generală</button></a>
+                <a href="solarSystem.html" class="game-button"><button class="game-button">Învață Sistemul Solar</button></a>
+            </div>
+
         </header>
-        <a href="game.html" target="_blank"><img src="game_img/test.png" class="enter-game"></img></a>
-        <div class="enter-game exit-announce" onclick="showHideTest()">X</div>
         <div class="container">
             <p class="about">
                 <strong>Multilateral</strong> este o platformă online gratis care te pune la curent cu toate materialele didactice necesare preocupărilor tale intelectuale.
@@ -28,7 +33,7 @@
 
             <div class="khan">
 
-                <p id="khan-title">VACANȚA DE VARĂ E O OCAZIE PERFECTĂ DE A ÎNVĂȚA CEVA NOU. URMEAZĂ UN CURS:</p>
+                <p id="khan-title">ARATĂ-LE PROFESORILOR DE CE EȘTI ÎN STARE. URMEAZĂ UN CURS ONLINE:</p>
 
                 <div class="khan-content">
 
@@ -63,6 +68,16 @@
                         ritmul propriu, cu ajutorul sesiunilor flexibile și personalizate de instruire, 
                         concepute pentru a-ți spori încrederea în forțele proprii și pentru a progresa. </div>
                  </div>
+
+                 <div class="khan-item">
+                    <a href="https://www.edx.org/" target="_blank"><img src="img/edx.png" class="khan-image"></img></a><br>
+                      <div class="khan-item-text"><b>edX</b> oferă cursuri online gratis în domeniile: CS (Computer Science),
+                        lingvistică, statistică, afaceri, inginerie, și științe umanistice, provenite de la două
+                    dintre cele mai prestigioase universități din lume: Harvard și Massachusetts Institute of Technology 
+                (MIT).</div>
+                 </div>
+
+
                     </div>
 
                 </div>
@@ -281,25 +296,31 @@
 
 </div>
     
-    <!-- <div class="comm">
-        <a href="https://carturesti.ro/" target="_blank"><img class="content-comm" width="145px;" src="img/logo-carturesti.png"></a>
-        <a href="https://www.elefant.ro/" target="_blank"><img class="content-comm" width="95px;" src="img/elefantro.png"></a>
-        <a href="https://www.libris.ro/" target="_blank"><img class="content-comm" width="150px;" src="img/logo-libris.png"></a>
-        <a href="https://www.nemira.ro/" target="_blank"><img class="content-comm" width="150px;" src="img/nemira-logo.png"></a>
-        <a href="https://https://www.books-express.ro/" target="_blank"><img class="content-comm" width="150px;" src="img/books-express-logo.png"></a>
-        <a href="https://www.dol.ro/" target="_blank"><img class="content-comm" width="150px;" src="img/logo_diverta_1024x.png"></a>
-        <a href="https://www.okian.ro/" target="_blank"><img class="content-comm" width="80px;" src="img/okian.png"></a>
-    </div> -->
         <footer>
-            
             <div class="sugest">
-                <h3 style="color:white; ">MULTILATERAL ©2020 - MICLOȘ EDUARD<br>
-                    Dorești să contribui? Trimite un mail la adresa
-                    <form action="mailto:multilateralsite@yahoo.com" method="post" enctype="text/plain">
-                        <input type="submit" value="multilateralsite@yahoo.com"></form> 
-                    cu materialul propus.
-                </div>  
-         </h3>
+                <h4 style="color: rgb(205, 207, 208);">CONTACT: 
+                    <a href="https://www.facebook.com/multilateralsite/" 
+                    target="_blank"><img class="contact-logo"src="img/fblogo.png"/>
+                    </a>
+                    <form action="mailto:multilateral@yahoo.com" method="post" enctype="text/plain">
+                        <input type="image" class="contact-logo" src="img/maillogo.png" alt="Submit">               
+                     </form>
+            </h4>
+
+                <div class="team-container">
+                    <h4 class="team"> MULTILATERAL <i class="fa fa-creative-commons"></i>2020 -
+                        <span class="team-text" style="color:rgb(241, 234, 136);">ECHIPA</span>
+                        <div class="underline"></div>
+                        <div class="team-members">
+                            <h5 class="team"> MICLOȘ EDUARD - web development </h5>
+                            <h5 class="team"> SAVA ANDREEA - marketing și promovare</h5>
+                        </div>
+                    </h4>
+
+
+                </div>
+
+        </div>
 
         </footer>
    <script>
@@ -343,6 +364,8 @@
         video.classList.toggle("active");
         btn.classList.toggle("active");
     };
+
+
     </script>
     <script type="text/javascript" src="js/bundle07292020.js"></script></body> 
 </html>
