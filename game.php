@@ -5,16 +5,17 @@
         <link href="https://fonts.googleapis.com/css?family=Oswald:300&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/gamestyle.css">
+    <link rel="stylesheet" type="text/css" href="css/winter-update-gamestyle.css">
 	<meta charset="UTF-8" />
     </head>
 
     <body>
         <header>
-            <img class="title" src="img/logo.png" alt="MULTILATERAL">
+            <img class="title" src="img/default_logo.png" alt="MULTILATERAL">
             <div class="header-container">
                 <a href="index" class="game-button"><button class="game-button">Înapoi pe pagina principală</button></a>
                 <a href="solarSystem" class="game-button"><button class="game-button">Învață Sistemul Solar</button></a>
+                <a href="protectTheEarth" class="game-button"><button class="game-button">Protejează Pământul</button></a>
             </div>
         </header>
 
@@ -26,5 +27,5 @@
         </div>
 
         <div id="score">PUNCTAJ: <span style="color: teal;"></span></div>
-        <script type="text/javascript" src="js/bundle07292020.js"></script></body>
+        <script type="text/javascript" src="js/bundle18012021.js"></script></body>
     </html>
