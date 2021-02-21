@@ -5,15 +5,31 @@ import {el} from './elements'
 export function createSubjects(){
 
 let allSubjects = [];
+let subjects_DOM = document.querySelector('.subjects');
+let index = 1;
 
+function createSubject(subjectId, subjectTitle, subjectImgSrc, subjectIndex){
+    let HTML_text = `<div class="subject-item"> \
+                        <span class="subject-item-title">${subjectTitle}</span> \
+                            <img class="subject-item-image" src="${subjectImgSrc}" alt="${subjectTitle}"> \
+                                <div class="subject-item-detalis"> \
+                                    <div class="subject-item-list-act"> \
+                                        <button class="subject-item-button" onclick="showHide(${subjectIndex})">&#128214;</button> \
+                                            <div id="${subjectIndex}" style="display: none;"> \
+                                                    <ul id="list-${subjectIndex}"> \
+                                                    </ul> \
+                                            </div> \
+                                    </div> \
+                                </div> \
+                    </div>`;
 
-function createSubject(subjectId){
-    allSubjects.push(new Subject(subjectId))
+    subjects_DOM.innerHTML += HTML_text;
+    allSubjects.push(new Subject(subjectId));
 }
 
 
-for (const key in el.subjectsId)
-    createSubject(el.subjectsId[key])
+for (const key in el.subjectsTitle)
+    createSubject(`list-${index}`, el.subjectsTitle[key], el.subjectsImg[key], index++)
 
 let subjectCount = -1;
 
