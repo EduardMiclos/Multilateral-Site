@@ -34,8 +34,17 @@ planets.forEach(function(element){
      var top = pos.top;
      if(top > 300) top-=200;
      if(left >= 818) left-=600;
-     info.setAttribute("style", `left: ${left+pos.width+50}px; top: ${top-50}px;`)
+     info.setAttribute("style", `left: ${left}px; top: ${top}px;`)
+
+    info.addEventListener("click", function(){
+        info.classList.toggle("invisible");
+        info.classList.toggle("fadeIn");
+        info.classList.toggle("fadeOut");
+        element.classList.toggle("clicked");
+    })
+
 })
+
 
 planets.forEach(function(element){
     element.addEventListener("click", function(){
@@ -49,6 +58,7 @@ planets.forEach(function(element){
         for(var i = 0; i < divs.length; i++)
             if(divs[i] == element)
                 var info = divs[i+1];
+
 
         info.classList.toggle("invisible");
         info.classList.toggle("fadeIn");
