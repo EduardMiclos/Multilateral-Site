@@ -1,20 +1,72 @@
-body {
-    background-color: rgba(117, 189, 134, 0.714);
-     font-family: "Oswald", sans-serif;
-    color: rgb(70, 65, 65);
-    min-width: 1280px;
-  }
 
-  header{
-    background-image: url("../imagini/header.png");
-    background: no-repeat center cover;
-    background-size: 700px;
-    background-blend-mode: multiply;
-    background-position-y: 580px;
+*{
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    color: #222;
+}
+
+html, body{
+    background-image: url("../img/double-bubble-outline.png");
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    min-width: 1280px;
+}
+
+header{
+  margin-top: 10px;
+}
+
+.header-container{
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 50%;
+  height: 50px;
+  background-color: rgba(108, 108, 77, 0.313);
+}
+
+
+.game-button{
+  display: inline-block; 
+  background-image: linear-gradient(rgba(247, 236, 187, 0.5), rgba(238, 233, 221, 0.741));    
+  border-radius: 0px;
+  background-size: 300px;
+  background-position-x: 25px;
+  background-position-y: -50px;
+  font-size: 25px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: #222;
+  transition: .5s;
+  text-align: center;
+  border: .1px solid white;
+  opacity: .9;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.game-button:hover{
+  cursor: pointer;
+  background-image: linear-gradient(rgba(216, 198, 119, .3), rgba(248, 219, 138, .3));
+} 
+
+.game-button:focus{
+  cursor: pointer;
+  background-image: linear-gradient(rgba(216, 198, 119, .3), rgba(248, 219, 138, .3));
+}
+
+@media screen and (max-width: 1300px){
+  .game-button{
+    font-size: 15px;
+  }
 }
 
 .title{
-    display: block;
+    /* display: block;
     top: -41em;
     bottom: 5.5em;
     padding-bottom: 50px;
@@ -23,6 +75,14 @@ body {
     margin: auto auto;
     width: 20em;
     min-width: 20em;
+    opacity: 0.7;
+    transition-duration: 200ms; */
+    cursor: pointer;
+    display: block;
+    width: 21em;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+    min-width: 21em;
     opacity: 0.7;
     transition-duration: 200ms;
 }
@@ -48,7 +108,7 @@ body {
     display: flex;  
     justify-content: flex-end;
     position: relative;
-    top: 5%;
+    top: 50px;
     bottom: 0;
     left: 0;
     right: 0;
