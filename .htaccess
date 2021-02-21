@@ -3,7 +3,7 @@
 RewriteEngine on
 
 # does not apply to existing directories, meaning that if the folder exists on the server
-# then don't change anything and don't run the Rule!
+then don't change anything and don't run the Rule!
 
 RewriteCond %{REQUEST_FILENAME} !-d
 
@@ -14,3 +14,10 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 # here we actually show the page that has the .html extension
 
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW UPGRADE_INSECURE_REQUESTS:multilateral.site
+Header always set Content-Security-Policy: upgrade-insecure-requests
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW UPGRADE_INSECURE_REQUESTS:multilateral.site
+
+
+
