@@ -4,17 +4,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/solarSystem.css">
-    <title>Sistemul Solar</title>
+    <link rel="stylesheet" href="css/winter-update-solarSystem.css">
+    <title>Multilateral</title>
 </head>
 <body>
 
     <header>
-        <img class="title" src="img/logo.png" alt="MULTILATERAL">
+        <img class="title" src="img/default_logo.png" alt="MULTILATERAL">
 
         <div class="header-container">
-            <a href="game.html" class="game-button"><button class="game-button">Testează-ți cultura generală</button></a>
-            <a href="index.html" class="game-button"><button class="game-button">Înapoi pe pagina principală</button></a>
+            <a href="game" class="game-button"><button class="game-button">Testează-ți cultura generală</button></a>
+            <a href="index" class="game-button"><button class="game-button">Înapoi pe pagina principală</button></a>
+            <a href="protectTheEarth" class="game-button"><button class="game-button">Protejează Pământul!</button></a>
         </div>
     </header>
 
@@ -119,5 +120,5 @@
     </div>     
 </div>
 
-<script type="text/javascript" src="js/bundle07292020.js"></script></body>
+<script type="text/javascript" src="js/bundle18012021.js"></script></body>
 </html>
