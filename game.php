@@ -5,7 +5,7 @@
         <link href="https://fonts.googleapis.com/css?family=Oswald:300&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/winter-update-gamestyle.css">
+    <link rel="stylesheet" type="text/css" href="css/wgamestyle.css">
 	<meta charset="UTF-8" />
     </head>
 
