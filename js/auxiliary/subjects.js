@@ -25,22 +25,24 @@ export default class Subject{
         if(type === el.types.seemore){
             node.innerHTML = `<div onclick="" class=ios-adapt>${type} ${content}</div>`
             node.classList.add(`seemore`);
-        }else if(type === el.types.video){
+        }
+        else if(type === el.types.video){
         node.innerHTML = `<a href="#MyFrame" onclick=toggle("${link}")> ${type} ${content}</a>`;
-        }else{
+        }
+        else{
             node.innerHTML = `<a href="${link}" target="_blank"> ${type} ${content}</a>`; 
         };
     };
     addItem(content, type, link, multiplicity){
-            let el, node;
-            el = document.getElementById(this.listId);
+            let element, node;
+            element = document.getElementById(this.listId);
             node = document.createElement("LI");
         
             this.createItem(node, link, type, content);
             if(multiplicity){
                 this.createSubList(node);
             }
-            el.appendChild(node);
+            element.appendChild(node);
     }
     addSubitem(index, content, type, link){
         let el, node;
