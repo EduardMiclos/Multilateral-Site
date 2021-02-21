@@ -4,7 +4,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/winter-update-solarSystem.css">
+    <link rel="stylesheet" href="css/solarSystem.css">
     <title>Multilateral</title>
 </head>
 <body>
